@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portifolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c07a451bbd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo-img.png" alt="logo-img" class="logo">
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                    <i class="fas fa-times" id="closemenu"></i>
+                </ul>
+                
+                <i class="fas fa-bars" id="openmenu" ></i>
+
+            </nav>
+                <div class="header-text">
+                    <p>Frontend Developer</p>
+                    <h1>Hi, I'm <span>Rajesh</span><br>Kushiyait From Nepal</h1>
+                </div>
+        </div>
+    </div>
+    <!-- about section -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/photostudio-2-designify.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1>About</h1>
+                    <p class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti harum fugit
+                        exercitationem dignissimos a. Vitae laborum, maiores culpa perferendis, voluptatem saepe
+                        nostrum, illum tempore qui expedita sapiente eos adipisci rerum!</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('achivements')">Achivements</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UX/UI</span> <br> Designing web/App interfaces</li>
+                            <li><span>Frontend Developer</span><br> Designing websites</li>
+                            <li><span>App Development</span><br>Building Anroid/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017-2021</span><br> B.tech in computer science</li>
+                            <li><span>2015-2017</span> <br>+2</li>
+                            <li><span>2015</span><br> SLC</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achivements">
+                        <ul>
+                            <li><span>2018</span> <br>Completed pyton course from Udemy</li>
+                            <li><span>2020</span><br>Completed Savascript Course from Scrimba</li>
+                            <li><span>2021</span> <br>Web Development Bootcamp is in process</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web Design</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, vel.</p> -->
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, vel.</p> -->
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, vel.</p> -->
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+           <h1 class="sub-title">My Work</h1>
+           <div class="work-list">
+            <div class="work">
+                <img src="images/portfolio-1.jpg">
+                <div class="layer">
+                    <h3>Tours and Travel Website</h3>
+                    <p>The app conects you to the talented people all around the world.
+                        Download iy form play Store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/portfolio-2.jpg">
+                <div class="layer">
+                    <h3>Education Website</h3>
+                    <p>The app conects you to the talented people all around the world.
+                        Download iy form play Store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/portfolio-6.jpg">
+                <div class="layer">
+                    <h3>e-commerce Website</h3>
+                    <p>The app conects you to the talented people all around the world.
+                        Download iy form play Store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+           </div>
+           <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- constact section -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> rajeshkushiyait@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 9811384226</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/RajeshKushiyait"><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/rk_cv (6).pdf" download  class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy;	Rajesh. Made with <i class="fa-solid fa-heart"></i> by Rajesh Kushiyait</p>
+        </div>
+    </div>
+
+    <script>
+        const tablinks=document.getElementsByClassName('tab-links');
+        const tabcontents=document.getElementsByClassName('tab-contents');
+
+
+
+
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-link');
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab');
+            }
+            // console.log(event.currentTarget)
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        const sideMenu=document.getElementById('side-menu');
+        const openMenu=document.getElementById('openmenu');
+        const closeMenu=document.getElementById('closemenu');
+
+        openMenu.addEventListener('click',function(){
+            sideMenu.style.right='0';
+        })
+        closeMenu.addEventListener('click',function(){
+            sideMenu.style.right='-200px';
+        })
+      
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwI6nuNFe1veZ0KAcK00hdYjhhRCGL6FDrofCIphnpmvAEtaw6zCuNXYGQnh0KZNv-t/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML='Message Send Successfuly'
+            setTimeout(function(){
+                msg.innerHTML=''
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
